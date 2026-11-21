@@ -1,10 +1,10 @@
 {
-  "name": "re-v-backend",
+  "name": "rev-backend",
   "version": "1.0.0",
-  "description": "Backend REST API untuk RE:V Marketplace & Barter Mahasiswa UNNES",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
